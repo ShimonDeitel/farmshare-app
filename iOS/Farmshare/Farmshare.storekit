@@ -1,0 +1,41 @@
+{
+  "identifier" : "Farmshare",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "farmshare_pro_group",
+      "localizations" : [],
+      "name" : "Farmshare Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "farmshare_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Farmshare Pro unlocks Season cost summaries and pickup reminders",
+              "displayName" : "Farmshare Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.farmshare.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Farmshare Pro Monthly",
+          "subscriptionGroupID" : "farmshare_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
