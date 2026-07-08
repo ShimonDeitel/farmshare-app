@@ -8,14 +8,7 @@ struct FarmShare: Identifiable, Codable, Equatable {
     var pickupDate: Date
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        farmName: String = "",
-        amountPaid: Double = 0,
-        pickupDate: Date = Date(),
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), farmName: String = "", amountPaid: Double = 0, pickupDate: Date = Date(), notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.farmName = farmName
